@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(to bottom, #f32a2a, #270c4b);
+    min-height: 1800px;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+}
+header{
+    display: inline-block;
+}
+header a.logo{
+    position: relative;
+    font-size: 12.5rem;
+    left: 30px;
+}
+header ul{
+    height: 20px;
+    width: 250%;
+    padding: 15px 35px;
+}
+header ul li{
+    margin: 25px 55px;
+}
+header ul li a{
+    font-size: 25px;
+}
+
+div.mid{position: relative;
+    top: 200px;
+    left: 45%;
+    height: 153vh;
+    width: 190%;
+}
+div h2{
+    position: absolute;
+    left: 95px;px;
+    top: 60px;
+    font-size: 3.5rem;
+}
+div input{
+    position: relative;
+    top: 175px;
+    left: 100px;
+    margin: 25px 15px;
+}
+div a.btn{
+    position: relative;
+    top: 320px;
+    left: -175px;
+
+}

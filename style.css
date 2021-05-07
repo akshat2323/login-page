@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(to bottom, #f32a2a, #270c4b, transparent);
+    min-height: 1500px;
+    scroll-behavior: smooth;
+}
+header{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 30px,100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+header .logo{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 28px
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 10px;
+}
+header ul li a:hover,
+header ul li a.active{
+    background-color: #fff;
+    color: #f32a2a;
+}
+
+.navbar{
+    position: sticky;
+}
+div.mid{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    height: 600px;
+    width: 95%;
+    background: rgb(233, 241, 233, 0.09);
+    border-radius: 40px;
+}
+div h2{
+    position: absolute;
+    left: 550px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 6px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+}
+div input{
+    position: relative;
+    left: 250px; 
+    top: 100px;
+    margin: 15px 250px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: rgba(90, 41, 250, 0.986);
+    height: 50px;
+    width: 400px;
+    border-radius: 40px;
+    border: 1px solid rgb(32, 15, 87, 0.5);
+    background: transparent;
+}
+div a.btn{
+    position: relative;
+    top: 180px;
+    left: -250px;
+    text-decoration: none;
+    padding: 10px 35px;
+    color: #fff;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    
+}
+div a.btn:hover{
+    background:#f32a2a ;
+    transition: 0.8s ease-in-out;
+}
